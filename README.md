@@ -4,3 +4,4 @@
 
 ```Задача №2: BDD (необязательная) ```
 
+[![Build status](https://ci.appveyor.com/api/projects/status/kkq38cxq6l12pjpp?svg=true)](https://ci.appveyor.com/project/SElena050622/gra62cucumber)

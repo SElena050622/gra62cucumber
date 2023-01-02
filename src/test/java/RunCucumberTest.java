@@ -14,10 +14,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static ru.netology.data.DataHelper.*;
 
 @RunWith(Cucumber.class)
-@CucumbeOptions(
-        plagin= {"pretty", "summary"},
+@CucumberOptions(
+        plugin = {"pretty", "summary"},
         features = {"src/test/resources/features"},
         glue = {"ru.netology.steps"})
 
 public class RunCucumberTest {
 }
+

@@ -22,7 +22,7 @@ public class DashboardPage {
         return extractBalance(text);
     }
 
-    public TransferPage selectCardToTransfer(int cardInfo) {
+    public TransferPage selectCardToTransfer(DataHelper.CardInfo cardInfo) {
         cards.findBy(attribute("data-test-id", cardInfo.getTestId())).$("button").click();
         return new TransferPage();
     }
